@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CryptoVault</string>
+    <string name="market_open">Mercado Abierto</string>
+    <string name="syncing">Sincronizando…</string>
+    <string name="favorites">Favoritos</string>
+    <string name="settings">Configuración</string>
+    <string name="search_placeholder">Buscar criptomoneda…</string>
+    <string name="no_favorites">Aún no tienes favoritos</string>
+    <string name="add_favorite_hint">Pulsa la estrella para guardar aquí</string>
+</resources>

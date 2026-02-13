@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    COMPONENTE LEGACY (XML)
+
+    Este layout se integra en Compose mediante AndroidView.
+    Muestra un banner de "Estado del Mercado" con:
+    - Indicador de estado (punto verde/rojo)
+    - Texto de estado
+    - Número total de criptomonedas rastreadas
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marketStatusContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_market_status">
+
+    <!-- Indicador de estado (punto) -->
+    <View
+        android:id="@+id/statusIndicator"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/bg_status_dot" />
+
+    <!-- Texto de estado -->
+    <TextView
+        android:id="@+id/tvMarketStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:text="Mercado Abierto"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <!-- Contador de criptos -->
+    <TextView
+        android:id="@+id/tvCryptoCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 criptos"
+        android:textSize="12sp"
+        android:textColor="#B0BEC5" />
+
+</LinearLayout>

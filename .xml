@@ -1,0 +1,257 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/cryptovault/ExampleInstrumentedTest.kt</file>
+  <line>11</line>
+  <module>CryptoVault.app.androidTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="class" FQNAME="com.cryptovault.ExampleInstrumentedTest" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>3</length>
+  <highlighted_element>/**</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/cryptovault/ExampleInstrumentedTest.kt</file>
+  <line>18</line>
+  <module>CryptoVault.app.androidTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.ExampleInstrumentedTest void useAppContext()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>5</length>
+  <highlighted_element>@Test</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/cryptovault/CryptoVaultApp.kt</file>
+  <line>6</line>
+  <module>CryptoVault.app.main</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="class" FQNAME="com.cryptovault.CryptoVaultApp" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>3</length>
+  <highlighted_element>/**</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/cryptovault/MainActivity.kt</file>
+  <line>16</line>
+  <module>CryptoVault.app.main</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="class" FQNAME="com.cryptovault.MainActivity" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>3</length>
+  <highlighted_element>/**</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/ExampleUnitTest.kt</file>
+  <line>7</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="class" FQNAME="com.cryptovault.ExampleUnitTest" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>3</length>
+  <highlighted_element>/**</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/ExampleUnitTest.kt</file>
+  <line>13</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.ExampleUnitTest void addition_isCorrect()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>5</length>
+  <highlighted_element>@Test</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>26</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="class" FQNAME="com.cryptovault.HomeViewModelTest" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>3</length>
+  <highlighted_element>/**</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>48</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void setup()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>7</length>
+  <highlighted_element>@Before</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>56</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void tearDown()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>6</length>
+  <highlighted_element>@After</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>65</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void initialStateShouldBeLoading()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>31</length>
+  <highlighted_element>// ── Test 1: Estado inicial ──</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>73</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void afterSuccessfulRefreshLoadingShouldBeFalseWithNoError()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>32</length>
+  <highlighted_element>// ── Test 2: Refresh exitoso ──</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>83</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void afterFailedRefreshErrorMessageShouldBeSet()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>32</length>
+  <highlighted_element>// ── Test 3: Refresh fallido ──</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>98</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void cryptosListShouldEmitDataFromRepository()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>38</length>
+  <highlighted_element>// ── Test 4: Datos del repositorio ──</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>110</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void searchQueryShouldUpdateUiState()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>25</length>
+  <highlighted_element>// ── Test 5: Búsqueda ──</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/cryptovault/HomeViewModelTest.kt</file>
+  <line>120</line>
+  <module>CryptoVault.app.unitTest</module>
+  <package>com.cryptovault</package>
+  <entry_point TYPE="method" FQNAME="com.cryptovault.HomeViewModelTest void clearErrorShouldResetErrorMessageToNull()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>30</length>
+  <highlighted_element>// ── Test 6: Limpiar error ──</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+</problems>
