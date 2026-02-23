@@ -35,17 +35,17 @@ com.cryptovault/
 │   │   ├── dao/                 # CryptoDao (consultas Room)
 │   │   ├── entity/              # CryptoEntity (tabla Room)
 │   │   ├── datastore/           # PreferencesManager (DataStore)
-│   │   └── CryptoDatabase.kt   # Base de datos Room
+│   │   └── CryptoDatabase.kt    # Base de datos Room
 │   ├── remote/
 │   │   ├── api/                 # CoinGeckoApi (interfaz Retrofit)
 │   │   ├── dto/                 # CoinDto (modelo de la API)
-│   │   └── RetrofitClient.kt   # Configuración HTTP
+│   │   └── RetrofitClient.kt    # Configuración HTTP
 │   └── repository/
 │       └── CryptoRepositoryImpl.kt  # Implementación del repositorio
 │
 ├── domain/                      # Capa de dominio
 │   ├── model/
-│   │   └── Crypto.kt           # Modelo de dominio (UI-ready)
+│   │   └── Crypto.kt            # Modelo de dominio (UI-ready)
 │   └── repository/
 │       ├── CryptoRepository.kt      # Interfaz del repositorio
 │       └── CurrencyPreferences.kt   # Interfaz de preferencias
@@ -57,21 +57,21 @@ com.cryptovault/
 │   │   ├── favorites/           # FavoritesScreen + FavoritesViewModel
 │   │   └── settings/            # SettingsScreen + SettingsViewModel
 │   ├── components/
-│   │   └── CryptoListItem.kt   # Componente reutilizable
+│   │   └── CryptoListItem.kt    # Componente reutilizable
 │   ├── legacy/
 │   │   └── MarketStatusBanner.kt  # View clásica (XML) en Compose
 │   ├── navigation/
-│   │   └── NavGraph.kt         # Navegación con Navigation Compose
+│   │   └── NavGraph.kt          # Navegación con Navigation Compose
 │   └── theme/                   # Material 3 theming
 │
 ├── di/
-│   └── AppContainer.kt         # Inyección de dependencias manual
+│   └── AppContainer.kt          # Inyección de dependencias manual
 │
 ├── worker/
-│   └── SyncPricesWorker.kt     # Worker de sincronización periódica
+│   └── SyncPricesWorker.kt      # Worker de sincronización periódica
 │
-├── CryptoVaultApp.kt           # Application class
-└── MainActivity.kt             # Entry point
+├── CryptoVaultApp.kt            # Application class
+└── MainActivity.kt              # Entry point
 ```
 
 ### Flujo de datos
@@ -165,7 +165,7 @@ Los tests verifican: estado inicial, refresh exitoso/fallido, emisión de datos 
 
 ```
 src/test/java/com/cryptovault/
-└── HomeViewModelTest.kt    # 6 tests unitarios
+└── HomeViewModelTest.kt        # 6 tests unitarios
     ├── FakeCryptoRepository    # Fake del repositorio (sin red ni BD)
     └── FakeCurrencyPreferences # Fake del DataStore
 ```
